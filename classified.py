@@ -1,1 +1,0 @@
-email_password = "GodisgooD12#$43@!"
