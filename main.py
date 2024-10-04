@@ -7,7 +7,7 @@ my_email = "codingneatpete@gmail.com"
 
 receiving_email = "peterhyh@yahoo.com"
 
-my_message = "Hello"
+my_message = "How are you?"
 
 
 #connect to email provider smtp server with this object
