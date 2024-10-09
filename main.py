@@ -7,7 +7,7 @@ my_email = "codingneatpete@gmail.com"
 
 receiving_email = "peterhyh@yahoo.com"
 
-my_message = "Hello"
+my_message = "My Subject"
 
 
 #connect to email provider smtp server with this object
@@ -21,7 +21,11 @@ connection.starttls()
 connection.login(user=my_email, password=email_password)
 
 #sending the mail
-connection.sendmail(from_addr=my_email, to_addrs=receiving_email, msg=my_message)
+connection.sendmail(
+    from_addr=my_email, 
+    to_addrs=receiving_email, 
+    msg=f"Subject: {my_message}\n\nThis is the body of my email."
+)
 
 #closing the connection after email has been sent
 connection.close()
