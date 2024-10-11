@@ -13,7 +13,6 @@ my_message = "My Subject"
 
 # Connect to email provider smtp server with this object
 # For the class, .SMTP(), you must specify the location of email provider's SMTP server in the first parameter. For Gmail, it's smtp.gmail.com
-# The 'with' statement is the same as having 'connection.close()'
 with smtplib.SMTP("smtp.gmail.com") as connection:
 
     # Secruring the connection to our email server; messages will be encrpted when this is enabled
