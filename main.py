@@ -3,7 +3,7 @@ from classified import email_password
 
 
 # The email you want to use to send 
-# Must turn on 2-step verification for Gmail and create an "app password"
+# Must turn on 2-step verification for Gmail and create an app password
 my_email = "codingneatpete@gmail.com"
 
 receiving_email = "peterhyh@yahoo.com"
